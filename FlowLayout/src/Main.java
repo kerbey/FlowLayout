@@ -1,8 +1,10 @@
+package borderlayoutdemo;
 
-public class Main
-{
-	public static void main(String[]args)
+public class flowLayOutMain {
+
+	public static void main(String[] args)
 	{
-		BorderLayoutDemo border = new BorderLayoutDemo();
+		flowLayoutDemo gui= new flowLayoutDemo();
 	}
+
 }
