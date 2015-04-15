@@ -34,12 +34,12 @@ public class BorderLayoutDemo extends JFrame implements ActionListener
 		button4= new JButton("4");
 		button5= new JButton("5");
 		button6= new JButton("6");
-		panel1.add(button1);
-		panel1.add(button2);
-		panel1.add(button3);
-		panel2.add(button4);
-		panel2.add(button5);
-		panel2.add(button6);
+		panel1.add(button4);
+		panel1.add(button5);
+		panel1.add(button6);
+		panel2.add(button1);
+		panel2.add(button2);
+		panel2.add(button3);
 		frame.add(panel1, BorderLayout.NORTH);
 		frame.add(panel2, BorderLayout.SOUTH);
 
